@@ -1,0 +1,25 @@
+# Окружение
+.venv/
+env/
+venv/
+ENV/
+
+# Кэш Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Тестовые отчеты и логи
+.pytest_cache/
+allure-results/
+allure-report/
+tests/.pytest_cache/
+*.log
+
+# Настройки IDE
+.idea/
+.vscode/
+
+# Секреты (БД, Токены)
+.env
